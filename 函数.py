@@ -54,3 +54,13 @@ temp = hello()
 print('temp =', temp)
 
 # 函数变量的作用域问题
+def discount(price, rate):
+    final_price = price * rate
+    return final_price
+
+old_price = float(input('请输入原价：'))
+rate = float(input('请输入折扣率：'))
+new_price = discount(old_price, rate)
+print('打折后的价格：', new_price)
+
+print(r"This is a joke.\n""This is a new joke")
