@@ -40,7 +40,7 @@ def fab(n):
     return n3
 
 
-print(fab(6))
+print(fab(3))
 
 
 # 递归的斐波那契数列
@@ -55,4 +55,7 @@ def fab(n):
         return fab(n-2) + fab(n-1)
 
 
-print(fab(6))
+print(fab(40))
+
+
+# 汉诺塔
